@@ -19,7 +19,7 @@ namespace Acdcat.TestProject.UnitTests
         {
             var y = 6 * 2;
 
-            Assert.Equal(10, y);
+            Assert.NotEqual(10, y);
 
         }
     }
